@@ -1,0 +1,282 @@
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 990px;
+        margin: 0 auto;
+    }
+    .top-nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contact p:last-child {
+        margin-left: 10px;
+    }
+
+    .sticky {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1999;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        position: static;
+    }
+
+    .nav-header {
+        flex: 1;
+        padding-left: 20px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    nav ul {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        position: static;
+        border-bottom: none;
+        flex: 1;
+        background-color: #032e63;
+    }
+
+    nav li {
+        background-color: #032e63;
+    }
+
+    .drop-service {
+        position: relative;
+    }
+
+    nav li a {
+        color: #fff;
+        font-size: 0.8rem;
+        padding: 30px 25px;
+    }
+
+    nav .fa-caret-down {
+        color: #fff;
+    }
+
+    nav .fa-search {
+        color: #fff;
+    }
+
+    .dropdown-content {
+        position: absolute;
+        background-color: #032e63;
+        min-width: 160px;
+        display: none;
+        z-index: 100;
+    }
+
+    .dropbtn {
+        width: 66%;
+    }
+
+    nav .dropdown-content a {
+        display: block;
+        width: 80%;
+        padding: 12px 16px
+    }
+
+    nav li a:hover {
+        color: #dfad0e;
+    }
+
+    nav .fa-search:hover {
+        color: #dfad0e;
+    }
+
+    nav .fa-caret-down:hover {
+        color: #dfad0e;
+    }
+
+    .home-slide {
+        display: flex;
+    }
+
+    .home {
+        flex: 1;
+        
+    }
+
+    .slide {
+        flex: 1;
+    }
+
+    .home-wrap {
+        display: flex;
+        padding: 40px 0;
+    }
+
+    .fbn-mortgage {
+        flex: 1;
+    }
+
+    .events-wrap {
+        flex: 1;
+    }
+
+    .events-up-image {
+        display: flex;
+    }
+
+    .events-date-info {
+        display: flex;
+    }
+
+    .events-info {
+        font-size: 0.7em;
+    }
+
+    .tab {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .tablinks {
+        padding: 20px 19px;
+        width: 28%;
+    }
+
+    .financial {
+        display: flex;
+    }
+
+    .fin-serve {
+        flex: 1;
+    }
+
+    .tabcontent-wrap {
+        flex: 1;
+    }
+
+    .refinancing-wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mortgage-ref {
+        width: 32%;
+    }
+
+    .construct {
+        width: 32%;
+    }
+
+    .equity {
+        width: 32%;
+    }
+
+    .mortgage-calc-wrap, .newsletter-wrap {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .row1, .row2 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .col {
+        width: 30%;
+    }
+
+    .newsletter input[type='email'] {
+        width: 66%;
+    }
+
+    .newsletter input[type='submit'] {
+        width: 26%;
+    }
+
+    .contact-map {
+        display: flex;
+     }
+
+     .contact-map .contact {
+        display: block;
+        flex: 1;
+        margin-left: 13%;
+        margin-right: 4%;
+    }
+
+    .map {
+        flex: 1;
+    }
+
+    .contact-map .col {
+        width: 45%;
+    }
+
+    .info-wrap {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        justify-content: space-between
+    }
+
+    footer h4 {
+        margin-top: 0;
+    }
+
+    footer .info {
+        flex: 1;
+        order: 3;
+        width: 30%;
+        margin-left: 40px;
+    }
+
+    footer .resources {
+        flex: 1;
+        order: 2;
+        width: 30%;
+        margin-left: 40px;
+    }
+
+    footer .site {
+        flex: 1;
+        order: 1;
+        width: 30%;
+        margin-left: 40px;
+    }
+
+    footer .copyrights {
+        flex: 1;
+        order: 0;
+        width: 30%;
+        margin-left: 40px;
+    }
+
+    footer h4, footer p, footer li, footer h5 {
+        text-align: left;
+    }
+
+    .copyrights h4 {
+        margin-top: 30px;
+    }
+
+    footer .phone-email {
+        padding-left: 15px;
+    }
+}
+
+@media screen and (min-width: 1024px) { 
+
+    .home {
+        padding-left: 150px;
+    }
+
+}

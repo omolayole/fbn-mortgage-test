@@ -1,0 +1,23 @@
+Hello Layo,
+
+Please find attached assignment.
+
+HTML & CSS
+Do not use any CSS framework. Use dummy custom images and art were necessary
+
+1. Convert mockup to code
+
+2. Make page responsive on mobile
+
+3. Make blue portion of header fixed to the top while scrolling only on Desktop (not mobile); yellow portion does not fix.
+
+JQuery Test
+Use jquery library
+
+1. In the section name Products & Services, make each tab work by changing the content below based on selected tab. Make the active tab styled. 
+
+2. In the first section, use a plugin to make image section alone slide (Text content on the left remains unchanged
+
+3. On the Contact section, on submit, alert all the users inputs from the form in a prompt. Upon click of ok button, submit form details to server. Upon reject, do not submit form.
+
+Cheers.
