@@ -14,4 +14,4 @@ PgwSlider is a Jquery plugin that is used to handle the slider on the page.
 
 ## Link
 
-To view live page, click [here]().
+To view live page, click [here](https://omolayole.github.io/fbn-mortgage-test/).
